@@ -1,6 +1,6 @@
 # time_series
 
-## Iyzico zaman serisi projesi
+## Iyzico Zaman Serisi Projesi
 ## Smoothing Yöntemleri
 ## İstatistiksel Metodlar
 ## Makine Öğrenmesi ile Zaman Serisi
