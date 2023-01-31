@@ -305,5 +305,3 @@ plot_lgb_importances(model, num=30, plot=True)
 
 lgb.plot_importance(model, max_num_features=20, figsize=(10, 10), importance_type="gain")
 plt.show()
-
-
