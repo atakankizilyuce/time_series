@@ -248,12 +248,9 @@ mean_absolute_error(test, y_pred)
 
 plot_prediction(pd.Series(y_pred, index=test.index), "SARIMA")
 
-
-
 # Final model
 
 tes_model_final = ExponentialSmoothing(df, trend="add", seasonal="add", seasonal_periods=12).\
             fit(smoothing_level=best_alpha, smoothing_slope=best_beta, smoothing_seasonal=best_gamma)
 
 tes_model_final.forecast(6)
-
